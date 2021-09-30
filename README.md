@@ -26,7 +26,7 @@ go build
 
 
 ```bash
-sudo docker run -p 8080:8080 docker.pkg.github.com/snapp-cab/event-exporter/image:latest
+sudo docker run -p 8080:8080 docker.pkg.github.com/snapp-incubator/event-exporter/image:latest
 ```
 
 ### Helm chart
