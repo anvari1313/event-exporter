@@ -2,7 +2,9 @@
 name: ci
 on:
   push:
-    branches: [ * ]
+    branches:
+      - master
+      - fix-document
     tags: [ v* ]
   pull_request:
     branches: [ main ]
